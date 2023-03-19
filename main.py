@@ -3,7 +3,7 @@
 def parallel_processing(n, m, data):
     output = []
     threads = [0] * n
-    for job in range(m)
+    for job in range(m):
         min_time = min(threads)
         thread_idx = threads.index(min_time)
         output.append((thread_idx, min_time))
